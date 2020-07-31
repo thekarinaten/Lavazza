@@ -82,6 +82,14 @@ button {
   padding: 90px 75px;
 }
 
+.arrow-previous {
+  padding-right: 265px;
+}
+
+.arrow-next {
+  padding-left: 265px;
+}
+
 .intro-section {
   background-image: url(/assets/images/bg.jpg);
   background-position: 50% 0;
@@ -207,6 +215,86 @@ button {
   transition: right 0.15s ease-in-out;
 }
 
+.price {
+  color: #421B0D;
+  font-family: 'Montserrat', 'Arial', 'Times New Roman', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: capitalize;
+  padding-right: 120px;
+}
+
+.price-button {
+  background-color: #421B0D;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-family: 'Montserrat', 'Arial', 'Times New Roman', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px 35px;
+  text-transform: uppercase;
+}
+
+.price-item {
+  align-items: center;
+  display: flex;
+}
+
+.products {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 0px 260px;
+}
+
+.product-description {
+  color: rgba(66, 27, 13, .6);
+  font-family: 'Montserrat', 'Arial', 'Times New Roman', sans-serif;
+  font-size: 16px;
+  max-width: 285px;
+  padding: 10px 0px;
+}
+
+.product-section {
+  padding: 90px 75px;
+}
+
+.product-title {
+  color: #421B0D;
+  font-family: 'Montserrat', 'Arial', 'Times New Roman', sans-serif;
+  font-size: 58px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 200px;
+}
+
+.product-item-title {
+  color: #421B0D;
+  font-family: 'Montserrat', 'Arial', 'Times New Roman', sans-serif;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.product-img {
+  position: absolute;
+  bottom: 250px;
+  right: 20px;
+}
+
+.product-item {
+  border: 2px solid rgba(66, 27, 13, .3);
+  border-radius: 10px;
+  padding: 215px 10px 50px 10px;
+  position: relative;
+  max-width: 325px;
+  margin-left: 20px;
+}
+
+.product-wrapper {
+  background-color: #F9EAD9;
+}
+
 .promo-img {
   padding: 0px 75px 220px 0px;
 }
@@ -234,7 +322,7 @@ button {
   padding-top: 100px;
 }
 
-.price-button {
+.promo-button {
   background-color: #421B0D;
   border: none;
   border-radius: 15px;
