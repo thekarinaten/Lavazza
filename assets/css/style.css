@@ -79,7 +79,7 @@ button {
 }
 
 .about-wrapper {
-  padding: 90px 75px;
+  padding: 90px 75px 220px 75px;
 }
 
 .arrow-previous {
@@ -290,6 +290,40 @@ button {
   -o-transition: right 0.15s ease-in-out;
   -moz-transition: right 0.15s ease-in-out;
   transition: right 0.15s ease-in-out;
+}
+
+.opt-description {
+  color: #64442F;
+  font-family: 'Montserrat Medium', 'Arial', 'Times New Roman', sans-serif;
+  font-size: 20px;
+  padding: 30px 0px 80px 0px;
+}
+
+.opt-button {
+  background-color: #421B0D;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-family: 'Montserrat', 'Arial', 'Times New Roman', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 20px 45px;
+  text-transform: uppercase;
+}
+
+.opt-section {
+  align-items: center;
+  display: flex;
+}
+
+.opt-title { 
+  color: #421B0D;
+  font-family: 'Montserrat', 'Arial', 'Times New Roman', sans-serif;
+  font-size: 50px;
+}
+
+.opt-txt {
+  padding-left: 60px;
 }
 
 .price {
