@@ -22,6 +22,15 @@ button {
   margin: 0 auto;
 }
 
+.about-title {
+  color: #421B0D;
+  font-family: 'Montserrat', 'Arial', 'Times New Roman', sans-serif;
+  font-size: 58px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
 .intro-section {
   background-image: url(/assets/images/bg.jpg);
   background-position: 50% 0;
