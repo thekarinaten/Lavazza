@@ -99,7 +99,7 @@ button {
   font-family: 'Montserrat', 'Arial', 'Times New Roman', sans-serif;
   font-size: 12px;
   font-weight: bold;
-  padding: 15px 35px 15px 45px;
+  padding: 15px 35px 15px 65px;
   position: relative;
   text-transform: uppercase;
 }
@@ -107,7 +107,7 @@ button {
 .consultation-img {
   position: absolute;
   bottom: 7px;
-  left: 10px;
+  left: 25px;
 }
 
 .consultation-section {
@@ -206,6 +206,20 @@ button {
   display: flex;
   font-family: 'Montserrat', 'Arial', 'Times New Roman', sans-serif;
   padding-bottom: 30px;
+}
+
+.method-type {
+  color: #421B0D;
+  font-family: 'Montserrat Medium', 'Arial', 'Times New Roman', sans-serif;
+  font-size: 36px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.method-description {
+  color: #421B0D;
+  font-family: 'Montserrat Regular', 'Arial', 'Times New Roman', sans-serif;
+  font-size: 20px;
 }
 
 .onoffswitch {
@@ -326,6 +340,56 @@ button {
   padding-left: 60px;
 }
 
+.payment-button {
+  background-color: #421B0D;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  font-family: 'Montserrat', 'Arial', 'Times New Roman', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 100px;
+  padding: 15px 35px 15px 35px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.payment-facilities {
+  max-width: 985px;
+}
+
+.payment-title {
+  color: #421B0D;
+  font-family: 'Montserrat', 'Arial', 'Times New Roman', sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 90px;
+}
+
+.payment-method {
+  background-image: url(/assets/images/point.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding: 40px 0px 50px 100px;
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.payment-section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 90px 75px 200px 75px;
+}
+
+.payment-wrapper {
+  background-image: url(/assets/images/bg\ payment.jpg);
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+}
+
 .price {
   color: #421B0D;
   font-family: 'Montserrat', 'Arial', 'Times New Roman', sans-serif;
@@ -389,7 +453,7 @@ button {
 
 .product-img {
   position: absolute;
-  bottom: 250px;
+  bottom: 200px;
   right: 20px;
 }
 
