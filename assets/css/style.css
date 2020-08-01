@@ -90,6 +90,54 @@ button {
   padding-left: 265px;
 }
 
+.consultation-button {
+  background: linear-gradient(to right, #40C351, #1DA22E);
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  color: #fff;
+  font-family: 'Montserrat', 'Arial', 'Times New Roman', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 15px 35px 15px 45px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.consultation-img {
+  position: absolute;
+  bottom: 7px;
+  left: 10px;
+}
+
+.consultation-section {
+  padding-right: 150px;
+}
+
+.consultation-title {
+  color: #64442F;
+  font-family: 'Montserrat', 'Arial', 'Times New Roman', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.consultation-txt {
+  color: #64442F;
+  font-family: 'Montserrat Medium', 'Arial', 'Times New Roman', sans-serif;
+  font-size: 20px;
+  padding: 20px 0px 50px 0px;
+}
+
+.consultation-wrapper {
+  align-items: center;
+  background-image: url(/assets/images/консультация-bg.png);
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  padding-top: 210px;
+}
+
 .intro-section {
   background-image: url(/assets/images/bg.jpg);
   background-position: 50% 0;
